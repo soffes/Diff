@@ -2,6 +2,10 @@
 
 Simple diffing library in pure Swift.
 
+## Installing
+
+You should use [Swift Package Manager](https://github.com/apple/swift-package-manager) to install Diff. **You will need snapshot 2016-04-12 or later to use Diff.**
+
 
 ## Usage
 
@@ -59,3 +63,14 @@ let (range, replacement) = diff(before, after, compare: Foo.compare)!
 // range: 0...0
 // replacement: []
 ```
+
+## Development
+
+If you want to contribute to Diff, please write a test.
+
+Building and running the tests locally with SPM is easy:
+
+    $ git clone https://github.com/soffes/diff
+    $ cd diff
+    $ swift build
+    $ swift test
