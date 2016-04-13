@@ -32,6 +32,18 @@ class DiffTests: XCTestCase {
 		XCTAssertNil(diff("Hello", "Hello"))
 	}
 
+	func testEmptyLHS() {
+		let (range, string) = diff("", "Hello world")!
+		XCTAssertEqual(0...0, range)
+		XCTAssertEqual("Hello world", string)
+	}
+
+	func testEmptyRHS() {
+		let (range, string) = diff("Hello world", "")!
+		XCTAssertEqual(0..<11, range)
+		XCTAssertEqual("", string)
+	}
+
 	func testIntArray() {
 		let (range, replacement) = diff([1, 2, 3], [1, 2, 3, 4])!
 		XCTAssertEqual(3...3, range)
