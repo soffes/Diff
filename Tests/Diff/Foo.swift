@@ -1,9 +1,15 @@
-struct Foo {
-	let value: Int
+protocol Foo {
+	var value: Int { get }
+}
 
-	static func compare(lhs: Foo, rhs: Foo) -> Bool {
-		return lhs.value == rhs.value
-	}
+
+func compareFoo(lhs: Foo, rhs: Foo) -> Bool {
+	return lhs.value == rhs.value
+}
+
+
+struct Bar: Foo {
+	let value: Int
 
 	init(value: Int) {
 		self.value = value

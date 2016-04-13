@@ -56,11 +56,17 @@ class DiffTests: XCTestCase {
 		XCTAssertEqual([5, 6, 7], string)
 	}
 
-	func testOtherType() {
-		let before: [Foo] = [Foo(value: 1), Foo(value: 2)]
-		let after: [Foo] = [Foo(value: 2)]
+	func testReplaceAppend() {
+		let (range, string) = diff([1, 2], [1, 3, 4])!
+		XCTAssertEqual(1...1, range)
+		XCTAssertEqual([3, 4], string)
+	}
 
-		let (range, replacement) = diff(before, after, compare: Foo.compare)!
+	func testOtherType() {
+		let before: [Foo] = [Bar(value: 1), Bar(value: 2)]
+		let after: [Foo] = [Bar(value: 2)]
+
+		let (range, replacement) = diff(before, after, compare: compareFoo)!
 		XCTAssertEqual(0...0, range)
 		XCTAssertEqual(0, replacement.count)
 	}
