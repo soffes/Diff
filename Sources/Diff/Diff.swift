@@ -41,7 +41,7 @@ public func diff<T>(_ before: [T], _ after: [T], compare: (T, T) -> Bool) -> (Ra
 	// Insert
 	if afterCount != commonStart + commonEnd {
 		let range = commonStart..<(afterCount - commonEnd)
-		return (commonStart...commonStart, Array(after[range]))
+		return (commonStart..<commonStart, Array(after[range]))
 	}
 
 	// Already equal

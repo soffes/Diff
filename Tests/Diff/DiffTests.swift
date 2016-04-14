@@ -12,7 +12,7 @@ import Diff
 class DiffTests: XCTestCase {
 	func testInsert() {
 		let (range, string) = diff("Hello world", "Hello there world")!
-		XCTAssertEqual(6...6, range)
+		XCTAssertEqual(6..<6, range)
 		XCTAssertEqual("there ", string)
 	}
 
@@ -34,7 +34,7 @@ class DiffTests: XCTestCase {
 
 	func testEmptyBefore() {
 		let (range, string) = diff("", "Hello world")!
-		XCTAssertEqual(0...0, range)
+		XCTAssertEqual(0..<0, range)
 		XCTAssertEqual("Hello world", string)
 	}
 
@@ -46,7 +46,7 @@ class DiffTests: XCTestCase {
 
 	func testIntArray() {
 		let (range, replacement) = diff([1, 2, 3], [1, 2, 3, 4])!
-		XCTAssertEqual(3...3, range)
+		XCTAssertEqual(3..<3, range)
 		XCTAssertEqual([4], replacement)
 	}
 
@@ -58,7 +58,7 @@ class DiffTests: XCTestCase {
 
 	func testReplaceAppend() {
 		let (range, string) = diff([1, 2], [1, 3, 4])!
-		XCTAssertEqual(1...1, range)
+		XCTAssertEqual(1..<2, range)
 		XCTAssertEqual([3, 4], string)
 	}
 
@@ -67,7 +67,7 @@ class DiffTests: XCTestCase {
 		let after: [Foo] = [Bar(value: 2)]
 
 		let (range, replacement) = diff(before, after, compare: compareFoo)!
-		XCTAssertEqual(0...0, range)
+		XCTAssertEqual(0..<1, range)
 		XCTAssertEqual(0, replacement.count)
 	}
 }
