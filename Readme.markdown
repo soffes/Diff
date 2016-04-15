@@ -74,3 +74,7 @@ Building and running the tests locally with SPM is easy:
     $ cd diff
     $ swift build
     $ swift test
+
+## Thanks
+
+Thanks to [Jonathan Clem](https://github.com/jclem) for the original algorithm and [Caleb Davenport](https://github.com/calebd) for inspiration for the generics implementation and help debugging a few edge cases!
