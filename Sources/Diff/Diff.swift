@@ -35,7 +35,7 @@ public func diff<T>(_ before: [T], _ after: [T], compare: (T, T) -> Bool) -> (Ra
 	if beforeCount != commonStart + commonEnd {
 		let range = commonStart..<(beforeCount - commonEnd)
 		let intersection = commonStart..<(afterCount - commonEnd)
-		return (range, Array(after[intersection]))
+		return (Range(range), Array(after[intersection]))
 	}
 
 	// Insert
