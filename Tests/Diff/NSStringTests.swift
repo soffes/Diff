@@ -3,7 +3,7 @@
 //  Diff
 //
 //  Created by Sam Soffes on 5/6/16.
-//
+//  Copyright © 2016 Sam Soffes. All rights reserved.
 //
 
 import XCTest
