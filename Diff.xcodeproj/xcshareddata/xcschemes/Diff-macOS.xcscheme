@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2175D3C31D17268C009C6845"
-               BuildableName = "Diff-macOS.framework"
+               BuildableName = "Diff.framework"
                BlueprintName = "Diff-macOS"
                ReferencedContainer = "container:Diff.xcodeproj">
             </BuildableReference>
@@ -33,7 +33,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2175D3CC1D17268C009C6845"
-               BuildableName = "DiffTests-macOS.xctest"
+               BuildableName = "DiffTests.xctest"
                BlueprintName = "DiffTests-macOS"
                ReferencedContainer = "container:Diff.xcodeproj">
             </BuildableReference>
@@ -43,7 +43,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2175D3C31D17268C009C6845"
-            BuildableName = "Diff-macOS.framework"
+            BuildableName = "Diff.framework"
             BlueprintName = "Diff-macOS"
             ReferencedContainer = "container:Diff.xcodeproj">
          </BuildableReference>
@@ -65,7 +65,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2175D3C31D17268C009C6845"
-            BuildableName = "Diff-macOS.framework"
+            BuildableName = "Diff.framework"
             BlueprintName = "Diff-macOS"
             ReferencedContainer = "container:Diff.xcodeproj">
          </BuildableReference>
@@ -83,7 +83,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2175D3C31D17268C009C6845"
-            BuildableName = "Diff-macOS.framework"
+            BuildableName = "Diff.framework"
             BlueprintName = "Diff-macOS"
             ReferencedContainer = "container:Diff.xcodeproj">
          </BuildableReference>

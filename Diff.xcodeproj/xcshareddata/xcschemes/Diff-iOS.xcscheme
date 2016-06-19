@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2175D3A41D17267D009C6845"
-               BuildableName = "Diff-iOS.framework"
+               BuildableName = "Diff.framework"
                BlueprintName = "Diff-iOS"
                ReferencedContainer = "container:Diff.xcodeproj">
             </BuildableReference>
@@ -33,7 +33,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2175D3AE1D17267D009C6845"
-               BuildableName = "DiffTests-iOS.xctest"
+               BuildableName = "DiffTests.xctest"
                BlueprintName = "DiffTests-iOS"
                ReferencedContainer = "container:Diff.xcodeproj">
             </BuildableReference>
@@ -43,7 +43,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2175D3A41D17267D009C6845"
-            BuildableName = "Diff-iOS.framework"
+            BuildableName = "Diff.framework"
             BlueprintName = "Diff-iOS"
             ReferencedContainer = "container:Diff.xcodeproj">
          </BuildableReference>
@@ -65,7 +65,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2175D3A41D17267D009C6845"
-            BuildableName = "Diff-iOS.framework"
+            BuildableName = "Diff.framework"
             BlueprintName = "Diff-iOS"
             ReferencedContainer = "container:Diff.xcodeproj">
          </BuildableReference>
@@ -83,7 +83,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2175D3A41D17267D009C6845"
-            BuildableName = "Diff-iOS.framework"
+            BuildableName = "Diff.framework"
             BlueprintName = "Diff-iOS"
             ReferencedContainer = "container:Diff.xcodeproj">
          </BuildableReference>

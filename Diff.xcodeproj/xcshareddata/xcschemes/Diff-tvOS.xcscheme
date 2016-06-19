@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2175D3EC1D1726A8009C6845"
-               BuildableName = "Diff-tvOS.framework"
+               BuildableName = "Diff.framework"
                BlueprintName = "Diff-tvOS"
                ReferencedContainer = "container:Diff.xcodeproj">
             </BuildableReference>
@@ -33,7 +33,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2175D3F51D1726A8009C6845"
-               BuildableName = "DiffTests-tvOS.xctest"
+               BuildableName = "DiffTests.xctest"
                BlueprintName = "DiffTests-tvOS"
                ReferencedContainer = "container:Diff.xcodeproj">
             </BuildableReference>
@@ -43,7 +43,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2175D3EC1D1726A8009C6845"
-            BuildableName = "Diff-tvOS.framework"
+            BuildableName = "Diff.framework"
             BlueprintName = "Diff-tvOS"
             ReferencedContainer = "container:Diff.xcodeproj">
          </BuildableReference>
@@ -65,7 +65,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2175D3EC1D1726A8009C6845"
-            BuildableName = "Diff-tvOS.framework"
+            BuildableName = "Diff.framework"
             BlueprintName = "Diff-tvOS"
             ReferencedContainer = "container:Diff.xcodeproj">
          </BuildableReference>
@@ -83,7 +83,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2175D3EC1D1726A8009C6845"
-            BuildableName = "Diff-tvOS.framework"
+            BuildableName = "Diff.framework"
             BlueprintName = "Diff-tvOS"
             ReferencedContainer = "container:Diff.xcodeproj">
          </BuildableReference>
