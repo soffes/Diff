@@ -8,7 +8,7 @@
 
 import Foundation
 
-public func diff(_ before: NSString, _ after: NSString) -> (NSRange, NSString)? {
+public func diff(before: NSString, _ after: NSString) -> (NSRange, NSString)? {
 	let result = diff(Array(before.characters), Array(after.characters))
 	return result.flatMap { range, characters in
 		let string = NSString(characters: characters, length: characters.count)
@@ -22,7 +22,7 @@ extension NSString {
 		var characters = [unichar]()
 		
 		for i in 0..<length {
-			characters.append(character(at: i))
+			characters.append(characterAtIndex(i))
 		}
 		
 		return characters

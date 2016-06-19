@@ -6,16 +6,16 @@
 //  Copyright © 2016 Sam Soffes. All rights reserved.
 //
 
-public func diff(_ before: String, _ after: String) -> (Range<Int>, String)? {
+public func diff(before: String, _ after: String) -> (Range<Int>, String)? {
 	let result = diff(Array(before.characters), Array(after.characters))
 	return result.flatMap { ($0.0, String($0.1)) }
 }
 
-public func diff<T: Equatable>(_ before: [T], _ after: [T]) -> (Range<Int>, [T])? {
+public func diff<T: Equatable>(before: [T], _ after: [T]) -> (Range<Int>, [T])? {
 	return diff(before, after, compare: ==)
 }
 
-public func diff<T>(_ before: [T], _ after: [T], compare: (T, T) -> Bool) -> (Range<Int>, [T])? {
+public func diff<T>(before: [T], _ after: [T], compare: (T, T) -> Bool) -> (Range<Int>, [T])? {
 	let beforeCount = before.count
 	let afterCount = after.count
 
