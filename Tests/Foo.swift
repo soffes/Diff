@@ -11,7 +11,7 @@ protocol Foo {
 }
 
 
-func compareFoo(lhs: Foo, rhs: Foo) -> Bool {
+func compareFoo(_ lhs: Foo, rhs: Foo) -> Bool {
 	return lhs.value == rhs.value
 }
 
