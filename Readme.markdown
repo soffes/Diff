@@ -1,5 +1,8 @@
 # Diff
 
+[![Version](https://img.shields.io/github/release/soffes/Diff.svg)](https://github.com/soffes/Diff/releases)
+[![Build Status](https://travis-ci.org/soffes/diff.svg?branch=master)](https://travis-ci.org/soffes/diff)
+
 Simple diffing library in pure Swift.
 
 ## Installing
