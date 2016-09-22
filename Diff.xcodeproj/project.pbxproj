@@ -7,21 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		213822301D947CE700C1FEEB /* DiffTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213822281D947CDF00C1FEEB /* DiffTests.swift */; };
+		213822311D947CE700C1FEEB /* Foo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213822291D947CDF00C1FEEB /* Foo.swift */; };
+		213822321D947CE700C1FEEB /* NSStringTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2138222A1D947CDF00C1FEEB /* NSStringTests.swift */; };
+		213822331D947CE800C1FEEB /* DiffTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213822281D947CDF00C1FEEB /* DiffTests.swift */; };
+		213822341D947CE800C1FEEB /* Foo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213822291D947CDF00C1FEEB /* Foo.swift */; };
+		213822351D947CE800C1FEEB /* NSStringTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2138222A1D947CDF00C1FEEB /* NSStringTests.swift */; };
+		213822361D947CE800C1FEEB /* DiffTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213822281D947CDF00C1FEEB /* DiffTests.swift */; };
+		213822371D947CE800C1FEEB /* Foo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213822291D947CDF00C1FEEB /* Foo.swift */; };
+		213822381D947CE800C1FEEB /* NSStringTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2138222A1D947CDF00C1FEEB /* NSStringTests.swift */; };
 		2175D3B01D17267D009C6845 /* Diff.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2175D3A51D17267D009C6845 /* Diff.framework */; };
 		2175D3CE1D17268C009C6845 /* Diff.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2175D3C41D17268C009C6845 /* Diff.framework */; };
 		2175D3F71D1726A8009C6845 /* Diff.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2175D3ED1D1726A8009C6845 /* Diff.framework */; };
 		2175D4121D1726E9009C6845 /* Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 2175D4091D1726E9009C6845 /* Diff.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2175D41A1D172706009C6845 /* Diff+NSString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2175D4181D172706009C6845 /* Diff+NSString.swift */; };
 		2175D41B1D172706009C6845 /* Diff.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2175D4191D172706009C6845 /* Diff.swift */; };
-		2175D4201D17270E009C6845 /* DiffTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2175D41D1D17270E009C6845 /* DiffTests.swift */; };
-		2175D4211D17270E009C6845 /* DiffTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2175D41D1D17270E009C6845 /* DiffTests.swift */; };
-		2175D4221D17270E009C6845 /* DiffTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2175D41D1D17270E009C6845 /* DiffTests.swift */; };
-		2175D4231D17270E009C6845 /* Foo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2175D41E1D17270E009C6845 /* Foo.swift */; };
-		2175D4241D17270E009C6845 /* Foo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2175D41E1D17270E009C6845 /* Foo.swift */; };
-		2175D4251D17270E009C6845 /* Foo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2175D41E1D17270E009C6845 /* Foo.swift */; };
-		2175D4261D17270E009C6845 /* NSStringTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2175D41F1D17270E009C6845 /* NSStringTests.swift */; };
-		2175D4271D17270E009C6845 /* NSStringTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2175D41F1D17270E009C6845 /* NSStringTests.swift */; };
-		2175D4281D17270E009C6845 /* NSStringTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2175D41F1D17270E009C6845 /* NSStringTests.swift */; };
 		2175D4291D172713009C6845 /* Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 2175D4091D1726E9009C6845 /* Diff.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2175D42A1D172714009C6845 /* Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 2175D4091D1726E9009C6845 /* Diff.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2175D42B1D172714009C6845 /* Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 2175D4091D1726E9009C6845 /* Diff.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -58,6 +58,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		213822281D947CDF00C1FEEB /* DiffTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiffTests.swift; sourceTree = "<group>"; };
+		213822291D947CDF00C1FEEB /* Foo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Foo.swift; sourceTree = "<group>"; };
+		2138222A1D947CDF00C1FEEB /* NSStringTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSStringTests.swift; sourceTree = "<group>"; };
+		2138222B1D947CDF00C1FEEB /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2175D3A51D17267D009C6845 /* Diff.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Diff.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2175D3AF1D17267D009C6845 /* DiffTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiffTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2175D3C41D17268C009C6845 /* Diff.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Diff.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -69,10 +73,6 @@
 		2175D40A1D1726E9009C6845 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2175D4181D172706009C6845 /* Diff+NSString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Diff+NSString.swift"; sourceTree = "<group>"; };
 		2175D4191D172706009C6845 /* Diff.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Diff.swift; sourceTree = "<group>"; };
-		2175D41D1D17270E009C6845 /* DiffTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiffTests.swift; sourceTree = "<group>"; };
-		2175D41E1D17270E009C6845 /* Foo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Foo.swift; sourceTree = "<group>"; };
-		2175D41F1D17270E009C6845 /* NSStringTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSStringTests.swift; sourceTree = "<group>"; };
-		2175D4321D172768009C6845 /* Tests-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,12 +131,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		213822261D947CDF00C1FEEB /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				213822271D947CDF00C1FEEB /* DiffTests */,
+				2138222B1D947CDF00C1FEEB /* Info.plist */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		213822271D947CDF00C1FEEB /* DiffTests */ = {
+			isa = PBXGroup;
+			children = (
+				213822281D947CDF00C1FEEB /* DiffTests.swift */,
+				213822291D947CDF00C1FEEB /* Foo.swift */,
+				2138222A1D947CDF00C1FEEB /* NSStringTests.swift */,
+			);
+			path = DiffTests;
+			sourceTree = "<group>";
+		};
 		2175D39B1D17267D009C6845 = {
 			isa = PBXGroup;
 			children = (
 				2175D4171D172706009C6845 /* Sources */,
 				2175D4081D1726E9009C6845 /* Support */,
-				2175D41C1D17270E009C6845 /* Tests */,
+				213822261D947CDF00C1FEEB /* Tests */,
 				2175D3A61D17267D009C6845 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -160,7 +179,6 @@
 			children = (
 				2175D4091D1726E9009C6845 /* Diff.h */,
 				2175D40A1D1726E9009C6845 /* Info.plist */,
-				2175D4321D172768009C6845 /* Tests-Info.plist */,
 			);
 			path = Support;
 			sourceTree = "<group>";
@@ -172,16 +190,6 @@
 				2175D4181D172706009C6845 /* Diff+NSString.swift */,
 			);
 			path = Sources;
-			sourceTree = "<group>";
-		};
-		2175D41C1D17270E009C6845 /* Tests */ = {
-			isa = PBXGroup;
-			children = (
-				2175D41D1D17270E009C6845 /* DiffTests.swift */,
-				2175D41E1D17270E009C6845 /* Foo.swift */,
-				2175D41F1D17270E009C6845 /* NSStringTests.swift */,
-			);
-			path = Tests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -472,9 +480,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2175D4231D17270E009C6845 /* Foo.swift in Sources */,
-				2175D4201D17270E009C6845 /* DiffTests.swift in Sources */,
-				2175D4261D17270E009C6845 /* NSStringTests.swift in Sources */,
+				213822311D947CE700C1FEEB /* Foo.swift in Sources */,
+				213822301D947CE700C1FEEB /* DiffTests.swift in Sources */,
+				213822321D947CE700C1FEEB /* NSStringTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -491,9 +499,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2175D4241D17270E009C6845 /* Foo.swift in Sources */,
-				2175D4211D17270E009C6845 /* DiffTests.swift in Sources */,
-				2175D4271D17270E009C6845 /* NSStringTests.swift in Sources */,
+				213822341D947CE800C1FEEB /* Foo.swift in Sources */,
+				213822331D947CE800C1FEEB /* DiffTests.swift in Sources */,
+				213822351D947CE800C1FEEB /* NSStringTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -519,9 +527,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2175D4251D17270E009C6845 /* Foo.swift in Sources */,
-				2175D4221D17270E009C6845 /* DiffTests.swift in Sources */,
-				2175D4281D17270E009C6845 /* NSStringTests.swift in Sources */,
+				213822371D947CE800C1FEEB /* Foo.swift in Sources */,
+				213822361D947CE800C1FEEB /* DiffTests.swift in Sources */,
+				213822381D947CE800C1FEEB /* NSStringTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -688,7 +696,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = NO;
-				INFOPLIST_FILE = "Support/Tests-Info.plist";
+				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.samsoffes.diff.tests;
 				PRODUCT_NAME = DiffTests;
@@ -700,7 +708,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = NO;
-				INFOPLIST_FILE = "Support/Tests-Info.plist";
+				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.samsoffes.diff.tests;
 				PRODUCT_NAME = DiffTests;
@@ -750,7 +758,7 @@
 				APPLICATION_EXTENSION_API_ONLY = NO;
 				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = "Support/Tests-Info.plist";
+				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				PRODUCT_BUNDLE_IDENTIFIER = com.samsoffes.diff.tests;
@@ -765,7 +773,7 @@
 				APPLICATION_EXTENSION_API_ONLY = NO;
 				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = "Support/Tests-Info.plist";
+				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				PRODUCT_BUNDLE_IDENTIFIER = com.samsoffes.diff.tests;
@@ -846,7 +854,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = NO;
-				INFOPLIST_FILE = "Support/Tests-Info.plist";
+				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.samsoffes.diff.tests;
 				PRODUCT_NAME = DiffTests;
@@ -859,7 +867,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = NO;
-				INFOPLIST_FILE = "Support/Tests-Info.plist";
+				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.samsoffes.diff.tests;
 				PRODUCT_NAME = DiffTests;
