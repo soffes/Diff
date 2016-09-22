@@ -2,6 +2,7 @@
 
 [![Version](https://img.shields.io/github/release/soffes/Diff.svg)](https://github.com/soffes/Diff/releases)
 [![Build Status](https://travis-ci.org/soffes/diff.svg?branch=master)](https://travis-ci.org/soffes/diff)
+[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 
 Simple diffing library in pure Swift.
 
