@@ -7,7 +7,12 @@
 //
 
 public func diff(_ before: String, _ after: String) -> (CountableRange<Int>, String)? {
-	let result = diff(Array(before), Array(after))
+	#if swift(>=4.0)
+		let result = diff(Array(before), Array(after))
+	#else
+		let result = diff(Array(before.characters), Array(after.characters))
+	#endif
+
 	return result.flatMap { ($0.0, String($0.1)) }
 }
 
