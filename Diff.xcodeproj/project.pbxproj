@@ -20,17 +20,17 @@
 		2175D3CE1D17268C009C6845 /* Diff.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2175D3C41D17268C009C6845 /* Diff.framework */; };
 		2175D3F71D1726A8009C6845 /* Diff.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2175D3ED1D1726A8009C6845 /* Diff.framework */; };
 		2175D4121D1726E9009C6845 /* Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 2175D4091D1726E9009C6845 /* Diff.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2175D41A1D172706009C6845 /* Diff+NSString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2175D4181D172706009C6845 /* Diff+NSString.swift */; };
-		2175D41B1D172706009C6845 /* Diff.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2175D4191D172706009C6845 /* Diff.swift */; };
 		2175D4291D172713009C6845 /* Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 2175D4091D1726E9009C6845 /* Diff.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2175D42A1D172714009C6845 /* Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 2175D4091D1726E9009C6845 /* Diff.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2175D42B1D172714009C6845 /* Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 2175D4091D1726E9009C6845 /* Diff.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2175D42C1D172730009C6845 /* Diff.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2175D4191D172706009C6845 /* Diff.swift */; };
-		2175D42D1D172730009C6845 /* Diff+NSString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2175D4181D172706009C6845 /* Diff+NSString.swift */; };
-		2175D42E1D172731009C6845 /* Diff.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2175D4191D172706009C6845 /* Diff.swift */; };
-		2175D42F1D172731009C6845 /* Diff+NSString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2175D4181D172706009C6845 /* Diff+NSString.swift */; };
-		2175D4301D172731009C6845 /* Diff.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2175D4191D172706009C6845 /* Diff.swift */; };
-		2175D4311D172731009C6845 /* Diff+NSString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2175D4181D172706009C6845 /* Diff+NSString.swift */; };
+		21CE6AC11FEF60A200227C1A /* Diff+NSString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21CE6ABF1FEF60A200227C1A /* Diff+NSString.swift */; };
+		21CE6AC21FEF60A200227C1A /* Diff.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21CE6AC01FEF60A200227C1A /* Diff.swift */; };
+		21CE6AC31FEF60A500227C1A /* Diff.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21CE6AC01FEF60A200227C1A /* Diff.swift */; };
+		21CE6AC41FEF60A500227C1A /* Diff+NSString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21CE6ABF1FEF60A200227C1A /* Diff+NSString.swift */; };
+		21CE6AC51FEF60A600227C1A /* Diff.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21CE6AC01FEF60A200227C1A /* Diff.swift */; };
+		21CE6AC61FEF60A600227C1A /* Diff+NSString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21CE6ABF1FEF60A200227C1A /* Diff+NSString.swift */; };
+		21CE6AC71FEF60A600227C1A /* Diff.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21CE6AC01FEF60A200227C1A /* Diff.swift */; };
+		21CE6AC81FEF60A600227C1A /* Diff+NSString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21CE6ABF1FEF60A200227C1A /* Diff+NSString.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,8 +71,8 @@
 		2175D3F61D1726A8009C6845 /* DiffTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiffTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2175D4091D1726E9009C6845 /* Diff.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Diff.h; sourceTree = "<group>"; };
 		2175D40A1D1726E9009C6845 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2175D4181D172706009C6845 /* Diff+NSString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Diff+NSString.swift"; sourceTree = "<group>"; };
-		2175D4191D172706009C6845 /* Diff.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Diff.swift; sourceTree = "<group>"; };
+		21CE6ABF1FEF60A200227C1A /* Diff+NSString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Diff+NSString.swift"; path = "Diff/Diff+NSString.swift"; sourceTree = "<group>"; };
+		21CE6AC01FEF60A200227C1A /* Diff.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Diff.swift; path = Diff/Diff.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -186,8 +186,8 @@
 		2175D4171D172706009C6845 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				2175D4191D172706009C6845 /* Diff.swift */,
-				2175D4181D172706009C6845 /* Diff+NSString.swift */,
+				21CE6AC01FEF60A200227C1A /* Diff.swift */,
+				21CE6ABF1FEF60A200227C1A /* Diff+NSString.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -368,7 +368,7 @@
 				TargetAttributes = {
 					2175D3A41D17267D009C6845 = {
 						CreatedOnToolsVersion = 7.3.1;
-						LastSwiftMigration = 0800;
+						LastSwiftMigration = 0920;
 					};
 					2175D3AE1D17267D009C6845 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -471,8 +471,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2175D41B1D172706009C6845 /* Diff.swift in Sources */,
-				2175D41A1D172706009C6845 /* Diff+NSString.swift in Sources */,
+				21CE6AC21FEF60A200227C1A /* Diff.swift in Sources */,
+				21CE6AC11FEF60A200227C1A /* Diff+NSString.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -490,8 +490,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2175D4311D172731009C6845 /* Diff+NSString.swift in Sources */,
-				2175D4301D172731009C6845 /* Diff.swift in Sources */,
+				21CE6AC41FEF60A500227C1A /* Diff+NSString.swift in Sources */,
+				21CE6AC31FEF60A500227C1A /* Diff.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -509,8 +509,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2175D42F1D172731009C6845 /* Diff+NSString.swift in Sources */,
-				2175D42E1D172731009C6845 /* Diff.swift in Sources */,
+				21CE6AC61FEF60A600227C1A /* Diff+NSString.swift in Sources */,
+				21CE6AC51FEF60A600227C1A /* Diff.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -518,8 +518,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2175D42D1D172730009C6845 /* Diff+NSString.swift in Sources */,
-				2175D42C1D172730009C6845 /* Diff.swift in Sources */,
+				21CE6AC81FEF60A600227C1A /* Diff+NSString.swift in Sources */,
+				21CE6AC71FEF60A600227C1A /* Diff.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -679,6 +679,7 @@
 		2175D3BA1D17267D009C6845 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -688,6 +689,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.samsoffes.diff;
 				PRODUCT_NAME = Diff;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
@@ -695,6 +697,7 @@
 		2175D3BB1D17267D009C6845 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -711,6 +714,7 @@
 		2175D3BD1D17267D009C6845 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				APPLICATION_EXTENSION_API_ONLY = NO;
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -723,6 +727,7 @@
 		2175D3BE1D17267D009C6845 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				APPLICATION_EXTENSION_API_ONLY = NO;
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -773,6 +778,7 @@
 		2175D3D91D17268C009C6845 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				APPLICATION_EXTENSION_API_ONLY = NO;
 				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
@@ -789,6 +795,7 @@
 		2175D3DA1D17268C009C6845 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				APPLICATION_EXTENSION_API_ONLY = NO;
 				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
@@ -877,6 +884,7 @@
 		2175D4021D1726A8009C6845 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				APPLICATION_EXTENSION_API_ONLY = NO;
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -891,6 +899,7 @@
 		2175D4031D1726A8009C6845 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				APPLICATION_EXTENSION_API_ONLY = NO;
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";

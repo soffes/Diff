@@ -1,13 +1,14 @@
-//
-//  Package.swift
-//  Diff
-//
-//  Created by Sam Soffes on 4/12/16.
-//  Copyright © 2016 Sam Soffes. All rights reserved.
-//
+// swift-tools-version:4.0
 
 import PackageDescription
 
 let package = Package(
-    name: "Diff"
+    name: "Diff",
+    products: [
+        .library(name: "Diff", targets: ["Diff"]),
+    ],
+    targets: [
+        .target(name: "Diff"),
+        .testTarget(name: "DiffTests"),
+    ]
 )
