@@ -1,11 +1,3 @@
-//
-//  Diff+NSString.swift
-//  Diff
-//
-//  Created by Sam Soffes on 5/6/16.
-//  Copyright © 2016 Sam Soffes. All rights reserved.
-//
-
 import Foundation
 
 public func diff(_ before: NSString, _ after: NSString) -> (NSRange, NSString)? {
@@ -16,15 +8,14 @@ public func diff(_ before: NSString, _ after: NSString) -> (NSRange, NSString)? 
 	}
 }
 
-
 extension NSString {
 	var characters: [unichar] {
 		var characters = [unichar]()
-		
+
 		for i in 0..<length {
 			characters.append(character(at: i))
 		}
-		
+
 		return characters
 	}
 }

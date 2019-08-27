@@ -1,11 +1,3 @@
-//
-//  Diff.swift
-//  Diff
-//
-//  Created by Sam Soffes on 4/12/16.
-//  Copyright © 2016 Sam Soffes. All rights reserved.
-//
-
 public func diff(_ before: String, _ after: String) -> (CountableRange<Int>, String)? {
 	#if swift(>=4.0)
 		let result = diff(Array(before), Array(after))
